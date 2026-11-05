@@ -1,0 +1,19 @@
+{
+  "name": "logistics-page-change-watch",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "watch": "node --experimental-strip-types src/shipment_watch.ts",
+    "test": "node --experimental-strip-types --test src/shipment_watch.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  },
+  "license": "MIT"
+}
